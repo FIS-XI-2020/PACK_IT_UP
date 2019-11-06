@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>PACKITUP</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'w3.css' %}">
+<!--link rel="stylesheet" href="{{ STATIC_URL }}w3.css"-->
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<!-- header -->
+
+<!-- logo attribute-->
+<style>
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+
+</style>
+
+<!-- header box -->
+<div class="w3-container w3-teal color:#111111 header">
+  <img src="{% static 'mainLogo1.png' %}">
+  <h1 style="font-size:45px;">&nbsp;&nbsp;&nbsp;PACKITUP</h1>
+</div>
+<body>
+
+<div class="hero-text">
+    <p style="font-size:160%;">BOOKING CONFIRMED</p>
+
+    <p style="font-size:160%;">THANK YOU FOR BOOKING WITH US. WISHING YOU A HAPPY JOURNEY!</p>
+	
+</div>
+</body>
+</html>
